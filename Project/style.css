@@ -1,0 +1,97 @@
+/* Cabeçalho */
+
+.cabecalho {
+    background-color:#7B68EE;
+    margin: 0 auto;
+}
+
+.div-cabecalho{ text-align: center; } 
+
+.div-cabecalho .banner-inicial{
+    width: 150px;
+    position: static;
+}
+
+.listra{
+    width: 1090px;
+    border-bottom: 1px solid #BA55D3	;
+    margin: 0px auto;
+}
+
+.nav li{
+    display: inline-block;
+    padding: 15px 20px 20px;
+}
+
+.nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+/* Corpo do site */
+
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.recent-post{
+    font-size: 36px;
+    padding: 15px 0px 15px 20px ;
+    font-family: 'IBM Plex Sans', sans-serif;
+    
+}
+
+.post{
+    width: 420px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 15px;
+    display: inline-block;
+}
+
+.data{
+    color: #708090;
+    padding: 5px 0px 3px 10px;
+}
+
+.descricao{
+    color: #696969;
+    font-size: 18px;
+}
+
+.descricao:first{
+    color: black;
+}
+
+.img-publi{
+    width: 400px;
+    border-radius: 13px;
+    padding: 5px;
+}
+
+.cadastro{
+    width: 100px;
+    float: right;
+}
+
+footer{
+    text-align: center;
+    font-size: 18px;
+    background-color: gray;
+
+}
+
+/* Estilizações de efeitos */
+
+.nav a:hover{
+    background-color: white;
+    border-radius: 4px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.direitos::before{
+    content: "© ";
+}
